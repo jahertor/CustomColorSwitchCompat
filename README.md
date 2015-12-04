@@ -1,4 +1,4 @@
-# CustomColorSwitchCompat
+# [CustomColorSwitchCompat] Change SwitchCompat color programmatically
 Change color of SwitchCompat programmatically or in xml layout
 
 ## Programmatically
