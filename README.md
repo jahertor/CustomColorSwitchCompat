@@ -32,3 +32,6 @@ switchRequestPin.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeLi
     app:bgOnColor="#97d9d7"
     app:bgOffColor="#a6a6a6" />
 ```
+
+## Getting started
+Just import the code as a module in Android Studio.
