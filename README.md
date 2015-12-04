@@ -1,11 +1,11 @@
-# [CustomColorSwitchCompat] Change SwitchCompat color programmatically
+# Change SwitchCompat color programmatically [CustomColorSwitchCompat]
 Change color of SwitchCompat programmatically or in xml layout
 
 ## Programmatically
 ```
 final CustomColorSwitchCompat switchRequestPin = (CustomColorSwitchCompat) findViewById(R.id.switchRequestPin);
 switchRequestPin.setBgOnColor(Color.parseColor("#009284"));
-switchRequestPin.setBgOffColor(Color.parseColor("#ececec"));
+switchRequestPin.setBgOffColor(Color.parseColor("#d0d0d0"));
 switchRequestPin.setToggleOnColor(Color.parseColor("#97d9d7"));
 switchRequestPin.setToggleOffColor(Color.parseColor("#a6a6a6"));
 switchRequestPin.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -28,7 +28,7 @@ switchRequestPin.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeLi
     android:layout_alignParentEnd="true"
     android:layout_toRightOf="@id/hello"
     app:toggleOnColor="#009284"
-    app:toggleOffColor="#ececec"
+    app:toggleOffColor="#d0d0d0"
     app:bgOnColor="#97d9d7"
     app:bgOffColor="#a6a6a6" />
 ```
